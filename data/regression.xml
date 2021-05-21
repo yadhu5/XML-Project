@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "regression">
+<test name = "LoginTest">
+<parameter name ="username" value = "demo@techfios.com"/>
+<parameter name = "password" value = "abc123"/>
+
+<parameter name = "customername" value = "QR company"/>
+<parameter name = "compnayname" value = "Google"/>
+<parameter name = "email" value = "qr@gmail.com"/>
+<parameter name = "phone" value = "85958595"/>
+<parameter name = "address" value = "254 Alona dr"/>
+<parameter name = "city" value = "Dallas"/>
+<parameter name = "state" value = "TX"/>
+<parameter name = "zip" value = "75645"/>
+<parameter name = "country" value = "United Kingdom"/>
+
+
+<classes>
+<!-- <class name ="Test.LoginTest"/>  --><!-- to inject data to test page -->
+<class name ="Test.AddCustomerTest"/>
+
+</classes>
+</test>
+
+
+
+
+</suite>
